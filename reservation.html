@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet"
+			integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	
+  </head>
+	<section>
+		a<br>
+		a<br>
+		a<br>
+		a<br>
+		a<br>
+		a<br>
+	</section>
+  <body classs="body_reservation">
+	<header class="d-md-none">
+			<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light bg-light-ex">
+			  <button class="navbar-toggler menubutton d-md-none"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarSupportedContent1"
+						aria-controls="navbarSupportedContent1"
+						aria-expanded="false"
+						aria-label="Toggle navigation">
+					<span class="fas fa-bars fa-ex"></span><br>
+			  <span class="menuname">Menu</span>
+				</button>
+			  <a class="navbar-brand navbar-brand-ex">Luminous</a>
+			  <button class="navbar-toggler menubutton">
+					<a  href="tel:05052188143">
+						<span class="fas fa-phone fa-ex"></span><br>
+						<span class="menuname">Call</span>
+					</a>
+				</button>
+			  <div class="collapse navbar-collapse nav-link-ex" id="navbarSupportedContent1">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">
+								Home　<span class="nav--wamei">- ホーム -</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="concept.html">
+								Concept　<span class="nav--wamei">- コンセプト -</span>
+						  </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="system.html">
+								System　<span class="nav--wamei">- コースと料金システム -</span>
+						  </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="cast.html">
+								Cast List　<span class="nav--wamei">- キャスト一覧 -</span>
+						  </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="reservation.html">
+								Reservation　<span class="nav--wamei">- ご予約 -</span>
+						  </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="recruit.html">
+								Recruit　<span class="nav--wamei">- 採用情報 -</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+	<form action="/my-handling-form-page" method="post">
+		<legend>予約フォーム</legend>
+  		<div>
+   			<label for="name">お名前（仮名OK）:</label>
+   			<input type="text" id="name" name="user_name">
+ 		</div>
+  		<div>
+   			<label for="mail">メールアドレス:</label>
+  			<input type="email" id="mail" name="user_mail">
+		</div>
+  		<div>
+   			<label for="phone">電話番号:</label>
+  			<input type="tel" id="phone" name="user_">
+		</div>
+  		<div>
+   			<label for="date">ご予約日時:</label>
+  			<input type="date" id="date" name="user_">
+		</div>
+  		<div>
+   			<label for="time">待ち合わせ時刻:</label>
+  			<input type="time" id="time" name="user_">
+		</div>
+  		<div>
+   			<label for="timey">待ち合わせ時刻:</label>
+  			<input type="time" id="timey" name="user_">
+		</div>
+		<div>
+			<label for="cast">ご希望のキャスト:</label>
+			<select id="cast" name="user_cast">
+				<option value="指名無し">指名無し/0yen</option>
+				<option value="源 しいな">源 しいな/1,000yen</option>
+				<option value="信長">信長/1,000yen</option>
+				<option value="こよみ">こよみ/1,000yen</option>
+				<option value="十六夜 黄泉">十六夜 黄泉/1,000yen</option>
+				<option value="朝比奈 銀次">朝比奈 銀次/1,000yen</option>
+				<option value="四乃森 承太郎">四乃森 承太郎/1,000yen</option>
+				<option value="菊池 流星">菊池 流星/1,000yen</option>
+				<option value="七椿愛 誠">七椿愛 誠/1,000yen</option>
+				<option value="桐ケ谷 ヨリト">桐ケ谷 ヨリト/1,000yen</option>
+				<option value="星 史斗">星 史斗/1,000yen</option>
+				<option value="丸">丸/1,000yen</option>
+				<option value="最上 光">最上 光/1,000yen</option>
+				<option value="現役AV男優 K">現役AV男優 K/1,000yen</option>
+			</select>
+		</div>
+		<fieldset>
+			<legend>お支払い方法:</legend>
+			<label><input type="radio" name="payment" checked="checked" value="直接">直接支払い</label>
+			<label><input type="radio" name="payment" value="bank">銀行振込</label>
+			<label><input type="radio" name="payment" value="paypal">Paypal</label>
+			<label><input type="radio" name="payment" value="card">クレジットカード決済</label>
+		</fieldset>
+		
+
+		
+		
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">ピンクローター
+		</label>
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">電ま
+		</label>
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">ディルド
+		</label>
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">バイブ
+		</label>
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">麻縄
+		</label>
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">アナルセックス
+		</label>
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">ソフトSM
+		</label>
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">スカトロ
+		</label>
+
+		
+		
+		<div class="cp_actab">
+<input id="tab-one" type="checkbox" name="tabs">
+<label for="tab-one">タイトル</label>
+<div class="cp_actab-content">
+		<label for="checkbox_play_01">
+			<input type="checkbox" id="checkbox_play_01">言葉責めしてほしい
+		</label>
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">照明は暗くしてほしい
+		</label>
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">キスを多めにしてほしい
+		</label>
+		
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">胸を重点的に責めてほしい
+		</label>
+		
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">陰部を舐めてほしい
+		</label>
+		
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">陰部を手でイカせてほしい
+		</label>
+		
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">キャストに射精してほしい
+		</label>
+		
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">Sっぽく責めてほしい
+		</label>
+		
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">衣服を脱がせてほしい
+		</label>
+		
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">プレイ時間を眺めにしてほしい
+		</label>
+		
+		<label for="checkbox_play_">
+			<input type="checkbox" id="checkbox_play_">激しく責めてほしい
+		</label>
+</div>
+</div>
+<div class="cp_actab">
+<input id="tab-two" type="checkbox" name="tabs">
+<label for="tab-two">タイトル</label>
+<div class="cp_actab-content">
+<p>テキスト</p>
+</div>
+</div>
+<div class="cp_actab">
+<input id="tab-three" type="checkbox" name="tabs">
+<label for="tab-three">タイトル</label>
+<div class="cp_actab-content">
+<p>テキスト</p>
+</div>
+</div>
+		
+		<div>
+			<label for="msg">Message:</label>
+			<textarea id="msg" name="user_message"></textarea>
+		</div>
+	</form>
+	  
+	  
+	  <footer>
+		  <div class="footer_box">
+			  <i class="fas fa-home"></i> トップページ
+		  </div>
+		  <div class="footer_box">
+			  <i class="fas fa-heart"></i> コンセプト
+		  </div>
+		  <div class="footer_box">
+			  <i class="fas fa-yen-sign"></i> 料金システム
+		  </div>
+		  <div class="footer_box">
+			  <i class="fas fa-calendar-alt"></i> 出勤情報
+		  </div>
+		  <div class="footer_box">
+			  <i class="fas fa-handshake"></i> 採用情報
+		  </div>
+		  <div class="footer_box">
+			  <i class="fas fa-users"></i> キャスト一覧
+		  </div>
+		  <div class="footer_box">
+			  <i class="fas fa-pen"></i> コラム
+		  </div>
+		  <div class="footer_box">
+			  <i class="fas fa-phone"></i> ご予約
+		  </div>
+		  <div class="footer_box">
+			  <i class="fas fa-fire"></i> キャンペーン
+		  </div>
+		  <div class="footer_box_2">
+			  <i class="fab fa-instagram"></i> Instagram
+		  </div>
+		  <div class="footer_box_2">
+			  <i class="fab fa-twitter"></i> Twitter
+		  </div>
+		  <div class="footer_box_2">
+			 <i class="fas fa-exclamation-triangle"></i> 利用規定
+		  </div>
+		  <div class="footer_box_2">
+			  <i class="fas fa-question"></i> 問い合わせ
+		  </div>
+		  <div class="footer_box_2">
+			 <i class="fas fa-user-secret"></i> プライバシーポリシー
+		  </div>
+		  <div class="footer_box_2">
+			 <i class="fas fa-home"></i> トップページ
+		  </div>
+		  <div class="footer_credit_wrapper">
+		 	<p class="footer_credit_cmark">© 2018-2019 Luminous All Rights Reserved. </p>
+		  	<p class="footer_credit_designe">Designed by Yuki Hiroki</p>
+		  </div>
+	  </footer>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script>
+		jQuery(function($) {
+    		$(window).scroll(function() {
+        		var disp_pos = $(this).scrollTop() + ( $(window).innerHeight() / 1.2 );
+        		$('.fade_in').each(function() {
+					var obj_offset_top = $(this).offset().top;
+            		if( obj_offset_top < disp_pos ) {
+                		$(this).addClass('js_active');
+            		}
+        		});
+    		});
+		});
+	</script>
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.0.0.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

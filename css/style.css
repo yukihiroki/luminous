@@ -1,0 +1,623 @@
+body {
+    font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  
+	margin-bottom:0;
+  -webkit-text-size-adjust: none;
+}
+.body_index{
+	  background:url(../images/back_gray_2.png) top/100% auto fixed,
+		url(../images/home_eyecatch_3.png) top/100% auto no-repeat fixed;
+}
+h2{
+	font-size:7vw;
+	color:white;
+	line-height:4vw;
+	padding-top:3vw;
+	text-align:center !important;
+}
+h3{
+	font-size:3.5vw;
+	color:white;
+	text-align:center !important;
+	margin:0.7em;
+}
+section{
+	clear:left;
+	overflow:hidden;/*float:left後のpaddingが効かなくなる事の対処*/
+	padding-top:5vw;
+}
+form{
+	background-color:aliceblue;
+	margin:2%;
+}
+.form-group{
+	padding-top:2%;
+	margin:0% 2%
+}
+.half_box{
+	width:48.5%;
+	margin-left:1%;
+	margin-bottom:1%;
+	float:left;
+}
+/*SNS*/
+.twitter-timeline{
+	background-color:rgba(0,0,0,0.5);
+	margin-right:1% !important;
+	width:100%;
+}
+.sns_img{
+	width:100%;
+	margin-bottom:1%;
+}
+/*Header*/
+.nav-link{
+	padding-left:5% !important;
+	font-size:12px;
+}
+.bg-light-ex{
+	background-color:rgba(255,131,131,0.70) !important;
+	padding:0.01px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.menubutton{
+  	border-radius: 0rem;
+	line-height: 3px;
+	padding-top:4px;
+	padding-bottom:12px;
+}
+.navbar-brand-ex{
+	color:white !important;
+	font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	font-size:0.9rem;
+}
+table{
+	border:white;
+}
+.menuname{
+	font-size:9px;
+	color:white;
+	line-height:0rem;
+	position:relative;
+}
+.fa-ex{
+	color:white;
+}
+/*Home eyecatch*/
+.home_eyecatch_wrapper{
+	padding-bottom:177%;
+}
+.home_title_shadow{
+	background:url(../images/naname_right.png) center/cover no-repeat;
+	width:100%;
+    height:45%;
+    position:absolute;
+    bottom:-10%;
+	text-align: center;
+}
+.home_title{
+	padding-top:25%;
+	font-size:6.5vw;
+	margin-top:0.8em;
+	color:white;
+    bottom:0%;
+}
+.home_catchphrase_1{
+	font-size:10px;
+	color:white;
+    bottom:0%;
+}
+.home_catchphrase_2{
+	color:white;
+	font-size:12px;
+	line-height: 13px;
+    position:absolute;
+    top:8%;
+	left:3%
+}
+.home_eyecatch_permission{
+	text-align: right;
+	color:white;
+	font-size:10px;
+	line-height: 12px;
+    position:absolute;
+    top:26%;
+	right:2%
+}
+.home_eyecatch_arrow{
+	width:30px;
+	
+}
+.home_eyecatch_scroll{
+	color:white;
+	font-size:10px;
+	
+}
+/*Intro*/
+.home_intro_wrapper{
+	background-color: rgba(255,255,255,0.70);
+	margin-top:-10%;
+	margin-right:2%;
+	margin-left:2%;
+}
+.home_intro_pic_wrapper{
+	width:30%;
+	padding:3%;
+	float:left;
+	font-size:0.7rem;
+}
+.home_intro_text_wrapper{
+	width:70%;
+	float:left;
+}
+.home_intro_text{
+	margin-top:-5%;
+	padding-right:2%;
+	font-size:13px;
+}
+.color_green{
+	color:rgba(34,118,43,1.00);
+	font-size:20px;
+}
+.color_pink{
+	color:#FF2E2E;
+}
+/*Pick up Casts*/
+.puc_img_list{
+	background:url(../images/home_castlist.png)center/cover no-repeat;
+    float:left;
+	width:98%;
+	height:0;
+	padding-top:37.5%;
+	margin-left:1%;
+	margin-right:1%;
+}
+.puc_img_1{
+	background:url(../images/home_pickup_minamoto.png)center/cover no-repeat;
+	width:98%;
+	height:0;
+	padding-top:56.25%;
+	margin-left:1%;
+	margin-right:1%;
+	margin-bottom:1%;
+}
+.puc_img_2{
+	background:url(../images/home_pickup_izayoi.png)center/cover no-repeat;
+	height:0;
+	padding-top:150%;
+}
+.puc_img_3{
+	background:url(../images/home_pickup_nobunaga.png)center/cover no-repeat;
+	height:0;
+	padding-top:74%;
+	margin-bottom:2%;
+}
+.puc_img_4{
+	background:url(../images/home_pickup_natsume.png)center/cover no-repeat;
+	height:0;
+	padding-top:74%;
+	margin-top:1%;
+}
+
+
+/*Concept*/
+.concept_bg{
+	height: 0;    
+    padding-top: 133%;/* 表示画像の高さ ÷ 表示画像の幅 × 100 */
+    position:relative;
+}
+.concept_lead_wrapp{
+	width:90%;
+	color:white;
+	text-align:center;
+	position:absolute;
+	top:54%;
+	left:0%;
+	padding:4%;
+}
+.concept_lead_arrow{
+	width:30%;
+	color:white;
+	text-align:center;
+	position:absolute;
+	bottom:5%;
+	left:50%;
+	padding:4%;
+}
+.concept_num{
+	font-size:20px;
+}
+.concept_title{
+	font-size:16px;
+	line-height:1rem;
+	text-align: left !important
+		;
+}
+.concept_lead{
+	text-align: left;
+	font-size:10px;
+	line-height: 0.8rem;
+	margin:0.4rem;
+}
+.concept_1{
+	background:
+		url(../images/back_gray_2.png) center/cover no-repeat,
+		url(../images/concept_bg_1.png) center/cover no-repeat;
+}
+.concept_2{
+	background:
+		url(../images/back_gray_2.png) center/cover no-repeat,
+		url(../images/concept_bg_2.png) center/cover no-repeat;
+}
+.concept_3{
+	background:
+		url(../images/back_gray_2.png) center/cover no-repeat,
+		url(../images/concept_bg_3.png) center/cover no-repeat;
+}
+.concept_{
+	background:
+		url(../images/back_gray_2.png) center/cover no-repeat,
+		url(../images/concept_bg_4.png) center/cover no-repeat;
+}
+/*How to Use*/
+.home_howtouse_img_1{
+    max-width: 100%;
+    height:auto;
+
+}
+.home_howtouse_text{
+	color:white;
+	font-size:3.2vw;
+}
+/*Footer*/
+footer{
+	width:100%;
+	padding-top:1.825%;
+}
+.footer_box{
+    border: solid 1px white;
+	width:30.9%;
+	float:left;
+	color:white;
+	font-size:10px;
+	padding:1.825%;
+	margin-left:1.825%;
+	margin-bottom:1.825%;
+	text-align:center;
+}
+.footer_box_2{
+	background-color: #EEEEEE;
+    border: solid 1px #707070;
+	width:50%;
+	padding:1.5%;
+	padding-left:2%;
+	float:left;
+	color:#333333;
+	font-size:10px;
+}
+.footer_credit{
+	font-size:10px;
+	color:#CCCCCC;
+}
+.footer_credit p{
+	float:left;
+	padding:1.825%;
+}
+
+.footer_credit_wrapper{
+	font-size:10px;
+	color:#CCCCCC;
+}
+.footer_credit_cmark{
+	float:left;
+	width:60%;
+	padding-top:1%;
+	padding-left:1.5%;
+	margin:0;
+}
+.footer_credit_designe{
+	text-align:right;
+	float:left;
+	width:40%;
+	padding-top:1%;
+	padding-right:1.5%;
+	margin-bottom:1%;
+}
+
+/*How to Use*/
+
+.home_howtouse_img img{
+	width:100%;
+}
+.home_howtouse_text{
+	padding-top:5%;
+	padding-right:1.7%;
+	padding-left:1.7%;
+	line-height:1.3;
+}
+.home_howtouse_num{
+	font-size:1.5rem;
+	line-height:0;
+}
+
+/*Cast*/
+.cast_intro{
+	font-family: sans-serif !important;
+}
+.cast_intro_initial{
+	font-size:9vw;
+	color:#FF6C8D;
+}
+.cast_intro_name{
+	margin-top:45px;
+	font-size:7vw;
+ 	position: relative;
+	left:2%;
+}
+.cast_intro_wamei{
+	font-size:10vw;
+	line-height: 11
+		vw;
+ 	position: relative;
+	left:5%;
+}
+.cast_intro_catch{
+	font-size:5.5vw;
+  position: relative;
+text-align:right;
+	right:5%;
+}
+.cast_intro_info{
+	font-size:3.6vw;
+	text-align:center;
+}
+.cast_intro_scroll{
+	font-size:3.6vw;
+	text-align:center;
+}
+.cast_intro_scroll img{
+	width:20%;
+}
+.cast_intro_text {
+  position: relative;
+  padding: 1em 0;
+	font-size:3.6vw;
+	margin:8% 4%;
+}
+.cast_intro_text::before,
+.cast_intro_text::after {
+  position: absolute;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 6px;
+  box-sizing: border-box;
+}
+.cast_intro_text::before {
+  top: 0;
+  border-top: 2px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.cast_intro_text::after {
+  bottom: 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+
+.shift_today{
+	font-size:5vw;
+	line-height:5vw;
+	background-color:rgba(175,13,116,0.40);
+	padding-top:2%;
+}
+.shift_tomorrow{
+	font-size:5vw;
+	line-height:5vw;
+	background-color:rgba(13,130,175,0.40);
+	padding-top:2%;
+}
+.cast_shift_box{
+	text-align:center;
+}
+.shift_border{
+	border:solid 1px #ffffff;
+	margin:4%;
+	padding:5% 2%;
+	text-align: center;
+}
+.shift_table{
+	font-size:2.4vw;
+	line-height:3.6vw;
+}
+th{
+	padding-left:1%;
+}
+td,th{
+	width:10% !important;
+	border:solid 1px #ffffff;
+	padding-top:1%;
+	padding-bottom:1%;
+}
+.interview{
+	font-size:3.9vw;
+	padding-left:3%;
+	padding-right:3%;
+}
+.body_minamoto{
+	  background:url(../images/back_gray_2.png) top/100% auto fixed,
+		url(../images/cast_minamoto_eyecatch.png) top/120% auto fixed no-repeat;
+	color:white;
+}
+.minamoto_img_1{
+	width:35%;
+	position:relative;
+	left:50%;
+}
+.minamoto_img_2{
+	width:55%;
+	position:relative;
+	left:5%;
+}
+.minamoto_img_3{
+	width:40%;
+	position:relative;
+	left:5%;
+}
+.minamoto_img_4{
+	width:70%;
+	position:relative;
+	margin-top:4%;
+	left:25%;
+}
+.minamoto_img_5{
+	width:100%;
+	position:relative;
+	margin-top:4%;
+	left:0%;
+}
+/*ご予約*/
+.body_reservation{
+	  background:url(../images/castlist_bg.png) top/100% auto fixed no-repeat;
+	font-size:3vw;
+	
+}
+form {
+  width: 90%;
+	margin-left:5%;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  width: 20%;
+}
+
+input, textarea {
+  width: 70%;
+}
+
+input:focus, textarea:focus {
+  /* アクティブな要素を少し強調する */
+  border-color: #000;
+}
+
+textarea {
+  /* 複数行のテキストフィールドをラベルにきちんと揃える */
+  vertical-align: top;
+
+  /* テキスト入力に十分な領域を与える */
+  height: 5em;
+}
+
+.button {
+  /* ボタンを他のテキストフィールドと同じ場所に置く */
+  padding-left: 90px; /* label 要素と同じサイズ */
+}
+
+button {
+  /* このマージンは、ラベルとテキストフィールドの間のスペースと
+     おおよそ同じスペースを表す */
+  margin-left: .5em;
+}
+/*アコーディオンメニュー*/
+
+
+.cp_actab {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+	color: #ffffff;
+}
+.cp_actab input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.cp_actab label {
+	font-weight: bold;
+	line-height: 3;
+	position: relative;
+	display: block;
+	padding: 0 0 0 1em;
+	cursor: pointer;
+	margin: 0 0 1px 0;
+	background: #da3c41;
+}
+.cp_actab .cp_actab-content {
+	overflow: hidden;
+	max-height: 0;
+	-webkit-transition: max-height 0.35s;
+	transition: max-height 0.35s;
+	color: #333333;
+	background: #f1c6c6;
+}
+.cp_actab .cp_actab-content p {
+	margin: 1em;
+}
+/* :checked */
+.cp_actab input:checked ~ .cp_actab-content {
+	max-height: 20em;
+}
+/* Icon */
+.cp_actab label::after {
+	line-height: 3;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	width: 3em;
+	height: 3em;
+	-webkit-transition: all 0.35s;
+	transition: all 0.35s;
+	text-align: center;
+}
+.cp_actab input[type=checkbox] + label::after {
+	content: '+';
+}
+.cp_actab input[type=checkbox]:checked + label::after {
+	transform: rotate(315deg);
+}
+
+/*bodyのクラスがｘなら背景をこれにする。という書き方で。*/
+/*Footer*/
+
+
+
+.rogo{
+	width:30%;
+}
+
+
+
+
+
+/***フェード　
+「fade_in」クラスを適用した要素の先頭が表示画面の中央より下にスクロールされた時、
+その要素に「js_active」を付与。
+「js_active」クラスがついたときにアニメーション動作する。
+***/
+
+.fade_in{
+    transition: all 1100ms 0s ease;
+    transform: translateY(30px);
+    visibility: hidden;
+    opacity: 0;
+}
+.fade_in.js_active{
+    visibility: visible;
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+/*網掛け
+jクエリをクラスを変えてつくる。
+myfadeinをcssでかいて、特定の場所までスクロールするとフェードが発動するようにする。
+*/
+body {
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet"
+			integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	
+  </head>
+  <body>
+	<header class="d-md-none">
+			<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light bg-light-ex">
+			  <button class="navbar-toggler menubutton d-md-none"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarSupportedContent1"
+						aria-controls="navbarSupportedContent1"
+						aria-expanded="false"
+						aria-label="Toggle navigation">
+					<span class="fas fa-bars fa-ex"></span><br>
+			  <span class="menuname">Menu</span>
+				</button>
+			  <a class="navbar-brand navbar-brand-ex">Luminous</a>
+			  <button class="navbar-toggler menubutton">
+					<a  href="tel:05052188143">
+						<span class="fas fa-phone fa-ex"></span><br>
+						<span class="menuname">Call</span>
+					</a>
+				</button>
+			  <div class="collapse navbar-collapse nav-link-ex" id="navbarSupportedContent1">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">
+								Home　<span class="nav--wamei">- ホーム -</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="concept.html">
+								Concept　<span class="nav--wamei">- コンセプト -</span>
+						  </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="system.html">
+								System　<span class="nav--wamei">- コースと料金システム -</span>
+						  </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="cast.html">
+								Cast List　<span class="nav--wamei">- キャスト一覧 -</span>
+						  </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="reservation.html">
+								Reservation　<span class="nav--wamei">- ご予約 -</span>
+						  </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="recruit.html">
+								Recruit　<span class="nav--wamei">- 採用情報 -</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+	  
+		<section class="concept_bg concept_1">
+			<div class="concept_lead_wrapp">
+				<h3 class="concept_title"><span class="concept_num">No.1 </span>全ての女性に"癒やし"を</h3>
+				<p class="concept_lead">
+		  			　現在、女性の社会進出に伴い多くの女性から"癒やし"のニーズが高まっております。当店は社会で日々活躍している女性に"癒やし"を提供を提供することを第一の指名としています。
+				</p>
+			</div>
+			<div class="concept_lead_arrow">
+				<img alt="images/white_arrow.png">
+				Scroll
+			</div>
+		</section>
+		<section class="concept_bg concept_2">
+			<div class="concept_lead_wrapp">
+				<h3 class="concept_title"><span class="concept_num">No.2 </span>お選びいただける2つのコース</h3>
+				<p class="concept_lead">
+		  			当店ではデートコース、Hコースの２つの基本コースをご用意しております。組み合わせての利用もできますので、自分に合った利用の仕方ができます。<br>
+				</p>
+			</div>
+		</section>
+		<section class="concept_bg concept_3">
+			<div class="concept_lead_wrapp">
+				<h3 class="concept_title"><span class="concept_num">No.3 </span>Sexyで都会的なキャスト</h3>
+				<p class="concept_lead">
+					　お洒落で清潔感があることはもちろん、色気があり、都会的な魅力あふれる男性を採用しております。
+				</p>
+			</div>
+		</section>
+		<section class="concept_bg concept_4">
+			<div class="concept_lead_wrapp">
+				<h3 class="concept_title"><span class="concept_num">No.4 </span>女性が安心して利用できる風俗店</h3>
+				<p class="concept_lead">
+					　女性が安心してご利用できるよう、すべてのキャストに研修を行うと共に、定期的に性病検査も実施しております。また、お客様の個人情報がキャストに伝わることはありません。ご予約の際も簡単で明朗な料金システムになっており、いくつかの決済方法をご利用いただけます。
+				</p>
+			</div>
+		</section>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script>
+		jQuery(function($) {
+    		$(window).scroll(function() {
+        		var disp_pos = $(this).scrollTop() + ( $(window).innerHeight() / 1.2 );
+        		$('.fade_in').each(function() {
+					var obj_offset_top = $(this).offset().top;
+            		if( obj_offset_top < disp_pos ) {
+                		$(this).addClass('js_active');
+            		}
+        		});
+    		});
+		});
+	</script>
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.0.0.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
