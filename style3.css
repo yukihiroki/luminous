@@ -1,0 +1,53 @@
+
+body{
+   background:url(images/back_gray_2.png) top/100% auto fixed,
+  url(images/home_eyecatch_3.png) top/100% auto no-repeat fixed;
+  color:white;
+}
+
+
+
+
+/* モバイルトップ */
+
+
+/* /このお店について   */
+.about_wrapper:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+.about_wrapper{
+  background-color: grey
+  width:96vw
+  height: 18vh
+}
+.hirokikun img{
+  float:left;
+}
+.about　p{
+
+  float: left;
+}
+
+
+/* 注目のキャスト   */
+
+
+
+
+/* 本日出勤のキャスト   */
+
+
+
+
+
+/* キャンペーン  */
+
+
+
+
+
+<section>
+
+</section>
