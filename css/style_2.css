@@ -1,0 +1,9 @@
+body{
+	  background:url(../images/back_gray_2.png) top/100% auto fixed,
+		url(../images/home_eyecatch_3.png) top/100% auto no-repeat fixed;
+}
+
+#pagetop_textbox{
+	color:white;
+	margin-top:80vh;
+}
